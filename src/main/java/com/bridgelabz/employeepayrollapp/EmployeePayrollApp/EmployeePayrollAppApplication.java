@@ -11,14 +11,13 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 
 @SpringBootApplication
-
+@Slf4j
 @EnableSwagger2
 public class EmployeePayrollAppApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(EmployeePayrollAppApplication.class, args);
-        System.out.println("Welcome To Employee PayRoll App ");
-
+        log.info("Employee Payroll App Started");
     }
 
     @Bean
