@@ -3,12 +3,9 @@
  */
 package com.bridgelabz.employeepayrollapp.EmployeePayrollApp.dto;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
-@Getter
-@Setter
-public class ResponseDTO {
+public @Data class ResponseDTO {
     private String message;
     private Object data;
 
